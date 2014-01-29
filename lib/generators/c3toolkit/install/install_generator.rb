@@ -12,9 +12,7 @@ module C3toolkit
       end
 
       def copy_initializer
-        else
-          template "C3toolkit_robots_#{fetch(:server_env)}.txt", "config/robots_#{fetch(:server_env)}.txt"
-        end
+        template "C3toolkit_robots_#{fetch(:server_env)}.txt", "config/robots_#{fetch(:server_env)}.txt"
       end
 
     end
